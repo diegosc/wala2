@@ -1,0 +1,45 @@
+2026-08-06T00:40:20.559-05:00  INFO 20104 --- [restartedMain] com.dasac.wala.WalaApplication           : Starting WalaApplication using Java 22.0.2 with PID 20104 (C:\Users\Lenovo\Downloads\wala\wala\target\classes started by Lenovo in C:\Users\Lenovo\Downloads\wala)
+2026-08-06T00:40:20.614-05:00  INFO 20104 --- [restartedMain] com.dasac.wala.WalaApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-08-06T00:40:21.067-05:00  INFO 20104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-06T00:40:21.069-05:00  INFO 20104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-06T00:40:26.620-05:00  INFO 20104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-06T00:40:26.929-05:00  INFO 20104 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 243 ms. Found 3 JPA repository interfaces.
+2026-08-06T00:40:29.774-05:00  INFO 20104 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-08-06T00:40:29.843-05:00  INFO 20104 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-06T00:40:29.846-05:00  INFO 20104 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-08-06T00:40:30.095-05:00  INFO 20104 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 9023 ms
+2026-08-06T00:40:31.477-05:00  INFO 20104 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-06T00:40:33.363-05:00  INFO 20104 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:wala user=SA
+2026-08-06T00:40:33.373-05:00  INFO 20104 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-06T00:40:34.204-05:00  INFO 20104 --- [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-06T00:40:34.674-05:00  INFO 20104 --- [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-08-06T00:40:37.182-05:00  INFO 20104 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-06T00:40:37.469-05:00  INFO 20104 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:wala]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: WALA/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-06T00:40:40.605-05:00  INFO 20104 --- [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-06T00:40:40.629-05:00  INFO 20104 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-06T00:40:40.904-05:00  INFO 20104 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-06T00:40:43.993-05:00  WARN 20104 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-06T00:40:44.956-05:00  INFO 20104 --- [restartedMain] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:wala'
+2026-08-06T00:40:45.120-05:00  INFO 20104 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/wala'
+2026-08-06T00:40:45.132-05:00  INFO 20104 --- [restartedMain] com.dasac.wala.WalaApplication           : Started WalaApplication in 27.074 seconds (process running for 33.965)
+2026-08-06T00:40:51.966-05:00  INFO 20104 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/wala]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-06T00:40:51.966-05:00  INFO 20104 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-06T00:40:51.970-05:00  INFO 20104 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-08-06T00:45:18.591-05:00  INFO 20104 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-06T00:45:18.599-05:00  INFO 20104 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-08-06T00:45:18.616-05:00  INFO 20104 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-06T00:45:18.637-05:00  WARN 20104 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos ya esta cerrada (para des-habilitar el cerrado automatico durante el shutdown de la VM, agregue ";DB_CLOSE_ON_EXIT=FALSE" a la URL de conexión)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
+2026-08-06T00:45:18.640-05:00  INFO 20104 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-06T00:45:18.645-05:00  INFO 20104 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

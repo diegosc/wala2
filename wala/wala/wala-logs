@@ -1,0 +1,31 @@
+2026-08-07T23:29:12.362-05:00  INFO 18908 --- [main] com.dasac.wala.WalaApplicationTests      : Starting WalaApplicationTests using Java 21.0.12 with PID 18908 (started by LENOVO in C:\Users\LENOVO\Downloads\wala (2)\wala\wala)
+2026-08-07T23:29:12.368-05:00  INFO 18908 --- [main] com.dasac.wala.WalaApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2026-08-07T23:29:14.268-05:00  INFO 18908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-07T23:29:14.445-05:00  INFO 18908 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 3 JPA repository interfaces.
+2026-08-07T23:29:15.131-05:00  INFO 18908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-07T23:29:15.594-05:00  INFO 18908 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:wala user=SA
+2026-08-07T23:29:15.597-05:00  INFO 18908 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-07T23:29:15.936-05:00  INFO 18908 --- [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-07T23:29:16.081-05:00  INFO 18908 --- [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+2026-08-07T23:29:17.135-05:00  INFO 18908 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-07T23:29:17.301-05:00  INFO 18908 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:wala]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: WALA/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-07T23:29:19.661-05:00  INFO 18908 --- [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-07T23:29:19.681-05:00  INFO 18908 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-07T23:29:20.003-05:00  INFO 18908 --- [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-07T23:29:22.105-05:00  WARN 18908 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-08-07T23:29:23.041-05:00  INFO 18908 --- [main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:wala'
+2026-08-07T23:29:23.264-05:00  INFO 18908 --- [main] com.dasac.wala.WalaApplicationTests      : Started WalaApplicationTests in 11.78 seconds (process running for 17.878)
+2026-08-07T23:29:24.104-05:00  INFO 18908 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-07T23:29:24.112-05:00  INFO 18908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-07T23:29:24.120-05:00  INFO 18908 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
