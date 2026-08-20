@@ -57,6 +57,6 @@ public class SecurityConfig {
                 )
                 .httpBasic(Customizer.withDefaults());
 
-   return  null;
+   return  http.build();
     }
 }
